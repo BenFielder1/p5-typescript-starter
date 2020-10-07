@@ -6,7 +6,7 @@ import sketches from './sketches';
 
 function App() {
   // Point the useSketch at a different sketch
-  const { refContainer } = useSketch(sketches.someSketch);
+  const { refContainer } = useSketch(sketches.oopGame);
 
   return (
     <div ref={refContainer} />
